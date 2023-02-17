@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Mortrend";
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff2"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+}
+
+body {
+    background: #191919;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.max-width {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    background: url("assets/bg-gui.jpg") center/contain no-repeat;
+    width: 600px;
+    height: 337px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.gui-inner {
+    width: 507px;
+    height: 268px;
+    border-radius: 1.5rem;
+    margin-bottom: 6px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.gui-inner img {
+    object-fit: cover;
+    width: 100%;
+    filter: blur(8px);
+    transform: scale(1.1);
+}
