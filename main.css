@@ -47,6 +47,10 @@ body {
     transform: scale(1.035);
 }
 
+.gui-inner video {
+    transform: scale(1.3);
+}
+
 .gui-inner .img-city {
     object-fit: cover;
     width: 100%;
@@ -139,11 +143,6 @@ button.btn-open-sea:after {
     text-transform: uppercase;
 }
 
-/* .footer-nav ul li:hover {
-    color: #A358F7;
-    transition: color 0.25s ease;
-} */
-
 .footer-bottom {
     margin-bottom: 1.5rem;
 }
@@ -163,19 +162,22 @@ button.btn-open-sea:after {
     background: rgb(230,230,230);
     width: 0;
     height: 1.2em;
-    /* -webkit-transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -55%); */
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
     transform: translate(-50%, -55%);
 }
 .text-animation.state-1:before {
 width: 1px;
 }
+
 .text-animation.state-2:before {
 width: 0.9em;
 }
+
 .text-animation.state-3 {
 color: rgba(230,230,230);
 }
+
 .text-animation.state-3:before {
 width: 0;
 }
