@@ -6,15 +6,16 @@
     <title>Steady Stack</title>
     <meta name="robots" content="noindex">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css?v=0.1'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <style>
         @font-face {
             font-family: "Mortrend";
-            src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
-            url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff2");
+            font-display: swap;
+            src: url("assets/MortendBold.woff") format("woff"),
+            url("assets/MortendBold.woff2") format("woff2");
         }
     </style>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css?v=0.1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 </head>
 <body>
     <div class="page-wrapper">
@@ -22,7 +23,38 @@
             <div class="max-width">
                 <div class="footer-container">
                     <div class="gui-inner">
-                        <!-- <div class="gui-dark-overlay"></div> -->
+                        <div class="gui-text-wrapper">
+                            <nav class="footer-nav">
+                                <ul>
+                                    <li>
+                                        <div class="decode-text">
+                                            <div class="text-animation">e</div>
+                                            <div class="text-animation">c</div>
+                                            <div class="text-animation">o</div>
+                                            <div class="text-animation">s</div>
+                                            <div class="text-animation">y</div>
+                                            <div class="text-animation">s</div>
+                                            <div class="text-animation">t</div>
+                                            <div class="text-animation">e</div>
+                                            <div class="text-animation">m</div>
+                                        </div>
+                                    </li>
+                                    <li>marketplace</li>
+                                    <li>the oracle</li>
+                                    <li>staking</li>
+                                </ul>
+
+                                <ul>
+                                    <li>our team</li>
+                                    <li>merch</li>
+                                    <li>masterclasses</li>
+                                </ul>
+                            </nav>
+                            <div class="footer-bottom">
+                                <button class="btn-open-sea">Opensea</button>
+                            </div>
+                        </div>
+                        <div class="gui-dark-overlay"></div>
                         <div class="grid-overlay"></div>
                         <img class="img-city" src="https://i.giphy.com/media/eFvs5iE6a6ntVIRaEN/giphy.webp">
                     </div>
@@ -30,5 +62,6 @@
             </div>
         </main>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
